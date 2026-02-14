@@ -150,7 +150,6 @@ function App() {
               <h1 className="msg-line">
                 <span className="emoji-dance">💕</span>
                 {' '}Айчим, честит Свети Валентин!{' '}
-                <span className="emoji-dance">💕</span>
               </h1>
               
               <div className="love-quote msg-line">
