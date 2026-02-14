@@ -832,3 +832,34 @@ body {
   font-style: normal;
   font-size: 1.2em;
 }
+
+@media (max-width: 768px) {
+
+  .valentine {
+    animation: none;
+  }
+
+  .heart,
+  .arrow,
+  .rose,
+  .sparkle,
+  .kiss,
+  .confetti {
+    filter: none !important;
+  }
+
+  .photo-glow {
+    display: none;
+  }
+
+  .heart,
+  .arrow,
+  .rose,
+  .kiss {
+    animation-duration: 18s !important;
+  }
+
+  .sparkle {
+    animation-duration: 6s !important;
+  }
+}
